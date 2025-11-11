@@ -9,4 +9,4 @@ const num2 = [3, 4, 5, 6, 7]
 const result = num2.map((a, index)=>(a*9)+4)
 console.log(result)
 
-console.log(eval("1x2+3"))
+console.log(eval("1*2+3"))
