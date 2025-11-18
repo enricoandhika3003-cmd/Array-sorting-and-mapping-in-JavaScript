@@ -10,3 +10,11 @@ const result = num2.map((a, index)=>(a*9)+4)
 console.log(result)
 
 console.log(eval("1*2+3"))
+
+function ascend (resultSort) {
+    document.getElementById("result").innerHTML = resultSort;
+}
+
+function descend (reverseArray) {
+    document.getElementById("result").innerHTML = reverseArray;
+}
